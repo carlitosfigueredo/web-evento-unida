@@ -64,6 +64,14 @@ img {
     margin-bottom: 10%;
 }
 
+.meet-team {
+    padding: 5%;
+    color: #4338ca;
+    b {
+        color: #4338ca;
+    }
+}
+
 .team {
     display: flex;
     flex-direction: column;
@@ -71,30 +79,54 @@ img {
     padding: 10px;
     justify-content: center;
     align-items: center;
-    img {
+    .img-team {
         max-width: 100%;
         width: fit-content;
+        height: 120px;
+        border-radius: 50%;
     }
-    h5 {
+    h5.h {
+        color: #4338ca;
         margin-top: 10px;
-        color: white;
         font-weight: 700;
+        font-size: 26;
+        text-align: center;
+    }
+    h6.h {
+        color: #4338ca;
+        font-weight: 500;
         font-size: 24;
         text-align: center;
     }
-    h6 {
+    p.h {
+        color: #262626;
         margin-top: 10px;
-        color: white;
+        text-align: center;
         font-weight: 400;
         font-size: 20;
+        b {
+            color: #000;
+        }
+    }
+    h5.m {
+        color: #a21caf;
+        margin-top: 10px;
+        font-weight: 700;
+        font-size: 26;
         text-align: center;
     }
-    p {
+    h6.m {
+        color: #a21caf;
+        font-weight: 500;
+        font-size: 24;
+        text-align: center;
+    }
+    p.m {
+        color: #262626;
         margin-top: 10px;
         text-align: center;
-        color: white;
-        font-weight: 200;
-        font-size: 18;
+        font-weight: 400;
+        font-size: 20;
     }
 }
 
@@ -111,6 +143,7 @@ button {
 }
 
 .slide-arrow {
+    z-index: 5;
     position: absolute;
     top: 50%;
     margin-top: -15px;
@@ -121,7 +154,7 @@ button {
     width: 0;
     height: 0;
     border-left: 0 solid transparent;
-    border-right: 35px solid white;
+    border-right: 35px solid #0891b2;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
 }
@@ -131,7 +164,7 @@ button {
     width: 0;
     height: 0;
     border-right: 0 solid transparent;
-    border-left: 35px solid white;
+    border-left: 35px solid #0891b2;
     border-top: 30px solid transparent;
     border-bottom: 30px solid transparent;
 }
