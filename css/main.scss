@@ -79,6 +79,8 @@ img {
     padding: 10px;
     justify-content: center;
     align-items: center;
+    height: auto;
+    max-height: max-content;
     .img-team {
         max-width: 100%;
         width: fit-content;
@@ -200,13 +202,19 @@ button {
     justify-content: flex-end;
     align-content: center;
     .logo-unida {
-        margin: auto 10px;
+        margin: auto 5px;
         display: block;
         width: fit-content;
         height: 50px;
     }
     .jaguarete {
-        margin: auto 10px;
+        margin: auto 5px;
+        display: block;
+        width: fit-content;
+        height: 100px;
+    }
+    .logo-ingenieria {
+        margin: auto 5px;
         display: block;
         width: fit-content;
         height: 100px;
