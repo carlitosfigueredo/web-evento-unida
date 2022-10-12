@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     </script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/animate.min.css">
@@ -21,15 +22,15 @@
             <div class="content row">
                 <div class="col-12 col-md-12 col-lg-6">
                     <div class="service-description">
-                        <img class="logo w-50 animate__animated animate__pulse animate_delay-1s" src="/img/logo.svg" alt="">
+                        <img class="logo w-50 animate__animated animate__infinite animate__pulse animate_delay-1s" src="/img/logo.svg" alt="">
                         <div class="images-mobile">
                             <img class="d-block mx-auto app" src="/img/logo.svg" alt="Imagenes Sistemas">
                             <img class="d-block mx-auto pulsera" src="/img/pulseras.png" alt="Pulseras">
                         </div>
                         <h1>Mykure Control System</h1>
-                        <p>El Mykuré Software System ha sido diseñado para dar una solución al control, estadística y documentación de las personas ingresantes a un evento de concurrencia masiva.</p>
+                        <p>El Mykure Software System ha sido diseñado para dar una solución al control, estadística y documentación de las personas ingresantes a un evento de concurrencia masiva.</p>
                         <div class="boton">
-                            <a href="//gestion.mykure.tk/sorteo-miercoles" target="_blank" class="acceder">Registrar mis datos</a>
+                            <a href="#team" class="acceder">Conocé a nuestro súper equipo</a>
                         </div>
                     </div>
                 </div>
@@ -42,82 +43,98 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <h2 class="text-center">Conocé a nuestro <b class="text-uppercase">súper equipo</b> </h2>
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="multiple-items">
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chico.png" alt="">
-                                <h5>Carlos Alberto Figueredo Quevedo</h5>
-                                <h6>Ingeniería en Sistemas</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+    </div>
+    <div class="container">
+        <h2 class="text-center meet-team" data-aos="fade-up-left">Equipo <b class="text-uppercase">Mykure</b> </h2>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="multiple-items" id="team">
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/roger.jpg" alt="">
+                            <h5 class="h">Roger German Garay Álvarez</h5>
+                            <h6 class="h">Ingeniería en Sistemas</h6>
+                            <p class="h">Roger dice: Duki es mi padre. En esta liga yo sería Lebron al equipo más chicho lo saqué campeón.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chica.png" alt="">
-                                <h5>Alejandra Godoy Ballesteros</h5>
-                                <h6>Ingeniería en Informática</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/rebeca.jpg" alt="">
+                            <h5 class="m">Rebeca González Galeano</h5>
+                            <h6 class="m">Ingeniería en Informática</h6>
+                            <p class="m">Le encanta jugar al Rocket League. Programador training.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chico.png" alt="">
-                                <h5>Juan Bautista Paiva Torres</h5>
-                                <h6>Ingeniería en Sistemas</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/carlitos.jpg" alt="">
+                            <h5 class="h">Carlos Alberto Figueredo Quevedo</h5>
+                            <h6 class="h">Ingeniería en Sistemas</h6>
+                            <p class="h">Le encanta jugar Fortnite. Es administrador de Servidores. <b>No es programador</b>. Y sí, tampoco sabe en que semestre está.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chica.png" alt="">
-                                <h5>Rocio Elizabeth Ayala Benitez</h5>
-                                <h6>Ingeniería en Informática</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/alejandra.jpg" alt="">
+                            <h5 class="m">Alejandra Godoy Ballesteros</h5>
+                            <h6 class="m">Ingeniería en Informática</h6>
+                            <p class="m">Fiel creyente de que el gothy 2022 debe ser de elden ring, señora del circulo, responsable, intento de desarrolladora training.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chico.png" alt="">
-                                <h5>Stiven Daniel Ferreira Florentín</h5>
-                                <h6>Ingeniería en Informática</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/juan.jpg" alt="">
+                            <h5 class="h">Juan Bautista Paiva Torres</h5>
+                            <h6 class="h">Ingeniería en Sistemas</h6>
+                            <p class="h">Buscador de nuevas soluciones innovadoras en sistemas con señales débiles como tu ex.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chica.png" alt="">
-                                <h5>Aliany Belén Benítez Zárate</h5>
-                                <h6>Ingeniería en Informática</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/rocio.jpg" alt="">
+                            <h5 class="m">Rocio Elizabeth Ayala Benitez</h5>
+                            <h6 class="m">Ingeniería en Informática</h6>
+                            <p class="m">Le encanta la joda, amante de los videos de Germán Garmendia, Diseñadora Indie en Unity.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chico.png" alt="">
-                                <h5>Edgar Virgilio Villalba Fernández</h5>
-                                <h6>Ingeniería en Informática</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/stiven.jpg" alt="">
+                            <h5 class="h">Stiven Daniel Ferreira Florentín</h5>
+                            <h6 class="h">Ingeniería en Informática</h6>
+                            <p class="h">Amante de los viajes, el tereré y buenas músicas.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chica.png" alt="">
-                                <h5>Leisa Ana Quiroga</h5>
-                                <h6>Ingeniería en Sistemas</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/aliany.jpg" alt="">
+                            <h5 class="m">Aliany Belén Benítez Zárate</h5>
+                            <h6 class="m">Ingeniería en Informática</h6>
+                            <p class="m">Le gusta comer y dormir 🤣.</p>
                         </div>
-                        <div class="col-lg-4">
-                            <div class="team">
-                                <img class="mx-auto d-block" src="/img/chica.png" alt="">
-                                <h5>Rebeca González Galeano</h5>
-                                <h6>Ingeniería en Informática</h6>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nisi porro adipisci minima aliquid quos expedita quibusdam ipsam corporis quas, nam quod. In similique praesentium nisi esse tempore ipsam porro.</p>
-                            </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/edgar.jpg" alt="">
+                            <h5 class="h">Edgar Virgilio Villalba Fernández</h5>
+                            <h6 class="h">Ingeniería en Informática</h6>
+                            <p class="h">Estudioso, aplicado. Le gusta jugar al fútbol y programar. </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/araceli.jpg" alt="">
+                            <h5 class="m">Araceli Anahi Aguirre Andrada</h5>
+                            <h6 class="m">Ingeniería en Informática</h6>
+                            <p class="m">¡Deshonor! ¡Deshonor sobre toda tu familia! ¡Deshonrada tu! ¡Deshonrada tu vaca! <br> Mushu- Mulan.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team shadow p-3 mb-5 bg-body rounded">
+                            <img class="mx-auto d-block img-team" src="/img/leisa.jpg" alt="">
+                            <h5 class="m">Leisa Ana Quiroga</h5>
+                            <h6 class="m">Ingeniería en Sistemas</h6>
+                            <p class="m">Va por el capitulo 1058 de One Piece. Sus talentos son comer, dormir y tomar mate, programador Jr✌🏻.</p>
                         </div>
                     </div>
                 </div>
@@ -136,6 +153,7 @@
                 <div class="footer-logos-r">
                     <img class="logo-unida" src="/img/logo-unida.png" alt="">
                     <img class="jaguarete" src="/img/jaguarete.png" alt="">
+                    <img class="logo-ingenieria" src="/img/logo-ingenieria.png" alt="">
                 </div>
                 <div class="footer-logo-desc">
                     <p>Semana de la Ingeniería - Universidad UNIDA</p>
@@ -149,6 +167,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $('.multiple-items').slick({
             infinite: true,
@@ -157,6 +176,7 @@
             slidesToShow: 3,
             slidesToScroll: 3,
             centerMode: true,
+            autoplay: true,
             centerPadding: '60px',
             prevArrow: '<button class="slide-arrow prev-arrow"></button>',
             nextArrow: '<button class="slide-arrow next-arrow"></button>',
@@ -182,6 +202,9 @@
                 }
             }]
         });
+    </script>
+    <script>
+        AOS.init();
     </script>
 </body>
 
